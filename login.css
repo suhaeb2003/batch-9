@@ -1,0 +1,63 @@
+body{
+    
+    color:aliceblue;
+}
+.contener {
+    background: white;
+    width: 100%;
+    color: #030303ba;
+    overflow: hidden;
+}
+
+.manue {
+    width: 55%;
+    margin: auto;
+ 
+}
+
+.manue h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 11px;
+}
+
+.heading span {
+    color: #fa8800f7;
+}
+
+.detials {
+    overflow: hidden;
+    width: 100%;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.detials input {
+    width: 100%;
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+    margin-top: 4px;
+   border:none;
+    background: gainsboro;
+}
+button#button {
+    width: 100%;
+    border: none;
+    background: #ffa200;
+}
+table.table {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 7px;
+    border-bottom: 1px dotted #000000a3;
+}
+.books th{
+background: rgba(127, 255, 212, 0.377);
+font-size: 12px;
+font-weight:500;
+font-family: arial;
+}

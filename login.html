@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+<div class="contener">
+    <div class="manue">
+        <div class="heading">
+            <h1>JSBangladesh <span>Book</span>List</h1>
+        </div>
+        <div class="detials">
+        <form action="#">
+            Title <input type="text" id="title">
+            Author <input type="text" id="author">
+            Year <input type="number" id="year">
+            <button type="submit" id="button"> Add books</button>
+            
+        </form>
+        </div>
+        <table class="table">
+            <thead>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+            </thead>
+            <tbody class="books"></tbody>
+        </table>
+    </div>
+</div>
+<!-----custom js------->
+<script src="app.js"></script>
+</body>
+</html>
